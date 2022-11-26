@@ -86,6 +86,43 @@ p a {
   margin: 10px 0px;
 }
 
+/*------------> Estilo de las Cards <-----------*/
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1300px;
+  height: 160px;
+  margin-top: 40px;
+}
+.card {
+  width: 550px;
+  height: 160px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.boton2 {
+  background-color: rgb(139, 72, 191);
+  width: 69px;
+  height: 43px;
+  border: none;
+  font-size: 16px;
+  border-radius: 50px;
+  color: #ffffff;
+  font-weight: bold;
+}
+.tituloCard {
+  font-weight: bold;
+}
+.tituloCard span {
+  margin-left: 23px;
+}
+.descripcionCard {
+  width: 440px;
+  height: 105px;
+  color: #b3b2b7;
+  margin-left: 95px;
+}
+
 /*------------> Transparencia de las URL <-----------*/
 p a:hover {
   color: #242e5299;
