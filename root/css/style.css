@@ -158,10 +158,49 @@ p a {
   text-align: center;
   margin: 45px 0px 180px 0px;
 }
+/*------------> apartado/seccion <-----------*/
+.goforIt {
+  height: 224px;
+  background-color: #8B48BF;
+  
+}
+.containerGo {
+  width:1060px ;
+  height:95px ;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin: 64px 160px;
+}
+.goforIt h1 {
+  font-size: 40px;
+  color: #FFFFFF;
+  width: 500px;
+
+}
+.goforIt .boton {
+  background-color: #FFFFFF;
+}
+.goforIt .boton a {
+  text-decoration: none;
+  color: #8B48BF;
+}
+/*------------> Estilo Footer <-----------*/
+.footerNav {
+  height: 247px;
+  background-color: #1E1E26;
+}
 /*------------> Transparencia de las URL y Boton <-----------*/
 p a:hover {
   color: #242e5299;
 }
 .boton:hover {
   background-color: rgba(139, 72, 191, 0.7);
+}
+.goforIt .boton:hover{
+  background-color: rgba(139, 72, 191, 0.7);
+}
+.goforIt .boton a:hover{
+  text-decoration: none;
+  color: #FFFFFF;
 }
