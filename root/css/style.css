@@ -1,0 +1,45 @@
+body {
+  background-origin: #fafafa;
+}
+/* Navegacion */
+.menuNavegacion {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px;
+}
+/* URL despues del logo */
+.navegacionTop {
+  display: flex;
+  margin-right: 50px;
+  color: #242e52;
+  font-size: 13px;
+  font-weight: 500px;
+  font-family: "Be Vietnam Pro";
+}
+
+p a {
+  margin-right: 30px;
+}
+
+/* Propiedades Boton Generico */
+.boton {
+  background-color: #8b48bf;
+  width: 134px;
+  height: 44px;
+  border: none;
+  font-size: 16px;
+  font-weight: 500px;
+  box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+}
+.boton a {
+  color: white;
+  text-decoration: none;
+}
+.imagenPrincipal {
+  display: flex;
+}
+/* Transparencia de las URL */
+p a:hover {
+  color: #242e5299;
+}
