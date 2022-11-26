@@ -93,12 +93,15 @@ p a {
   width: 1300px;
   height: 160px;
   margin-top: 40px;
+  background-color: #fafafa;
+  justify-content: center;
 }
 .card {
   width: 550px;
   height: 160px;
   display: flex;
   flex-wrap: wrap;
+  margin: 25px;
 }
 .boton2 {
   background-color: rgb(139, 72, 191);
@@ -123,7 +126,7 @@ p a {
   margin-left: 95px;
 }
 
-/*------------> Transparencia de las URL <-----------*/
+/*------------> Transparencia de las URL y Boton <-----------*/
 p a:hover {
   color: #242e5299;
 }
