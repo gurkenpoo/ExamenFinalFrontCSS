@@ -91,8 +91,8 @@ p a {
   display: flex;
   flex-wrap: wrap;
   width: 1440x;
-  height: 160px;
-  margin-top: 40px;
+  height: 430px;
+  padding-top: 40px;
   background-color: #fafafa;
   justify-content: center;
 }
@@ -125,7 +125,39 @@ p a {
   color: #b3b2b7;
   margin-left: 95px;
 }
-
+/*------------> Seccion Best Of The Month <-----------*/
+.bestMonth h1 {
+  font-size: 39px;
+  text-align: center;
+  color: #242E53;
+  padding-top: 60px;
+}
+.containerMonth {
+  padding-top: 70px;
+  display: flex;
+  justify-content: center;
+}
+.cardMonth {
+  width: 426px;
+  height: 220px;
+  background-color: #FAFAFA;
+  text-align: center;
+}
+.cardMonth h2 {
+  color: #3F4868;
+  font-size: 16px;
+}
+.cardMonth p {
+  color: #B9B9C1;
+  font-size: 16px;
+}
+.cardMonth img {
+  margin-top: -35px;
+}
+.More {
+  text-align: center;
+  margin: 45px 0px 180px 0px;
+}
 /*------------> Transparencia de las URL y Boton <-----------*/
 p a:hover {
   color: #242e5299;
