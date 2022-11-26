@@ -1,33 +1,39 @@
 body {
   background-origin: #fafafa;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Be Vietnam Pro";
 }
-/* Navegacion */
+/*------------> Navegacion <-----------*/
 .menuNavegacion {
   display: flex;
   justify-content: space-around;
-  padding: 40px;
+  padding: 80px 40px 40px 40px;
 }
-/* URL despues del logo */
+/*------------> URL despues del logo <-----------*/
 .navegacionTop {
   display: flex;
   margin-right: 50px;
   color: #242e52;
   font-size: 13px;
   font-weight: 500px;
-  font-family: "Be Vietnam Pro";
 }
 
 p a {
   margin-right: 30px;
 }
 
-/* Propiedades Boton Generico */
+/*------------> Propiedades Boton Generico <----------- */
 .boton {
-  background-color: #8b48bf;
+  background-color: rgb(
+    139,
+    72,
+    191
+  ); /*------------>Cambio a RGB para poder ver la transparencia luego en HOVER <-----------*/
   width: 134px;
   height: 44px;
   border: none;
-  font-size: 16px;
+  font-size: 13px;
   font-weight: 500px;
   box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
   border-radius: 50px;
@@ -36,10 +42,54 @@ p a {
   color: white;
   text-decoration: none;
 }
-.imagenPrincipal {
+/*------------> Primera seccion = Imagen principal + H1 <-----------*/
+.primeraSeccion {
   display: flex;
+  padding-top: 100px;
+  padding-left: 180px;
+  padding-right: 170px;
 }
-/* Transparencia de las URL */
+.tituloPortada {
+  text-align: right;
+  padding-left: 50px;
+}
+.tituloPortada h1 {
+  font-size: 50px;
+  font-weight: 700;
+  color: #232c50;
+}
+/*------------> Contenido Principal <-----------*/
+
+.principal {
+  margin-top: 100px;
+}
+
+/*------------> Segunda Seccion = H2 + P <-----------*/
+.segundaSeccion {
+  display: flex;
+  background-color: #8b48bf;
+  width: 100%;
+  color: #ffffff;
+  padding: 40px 220px 80px 220px;
+  height: 60px;
+}
+.segundaSeccion h2 {
+  font-size: 36px;
+  font-weight: 700;
+  width: 540px;
+  margin: 10px 0px;
+}
+.segundaSeccion p {
+  font-size: 16px;
+  font-weight: 500;
+  width: 480px;
+  margin: 10px 0px;
+}
+
+/*------------> Transparencia de las URL <-----------*/
 p a:hover {
   color: #242e5299;
+}
+.boton:hover {
+  background-color: rgba(139, 72, 191, 0.7);
 }
