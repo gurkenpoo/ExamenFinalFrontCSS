@@ -194,13 +194,18 @@ p a {
   flex-direction: row;
   flex-wrap: wrap;
   height: 247px;
-  width: 1100px;
 }
-.logoFooter {
+.logos {
+  display: flex;
+  flex-wrap: wrap;
+  width: 320px;
+}
+.logos .logoFooter{
+  width: 120px;
   height: 25px;
-  width: 108px;
 }
-.logoContainer {
+.navFooter01 {
+  display: flex;
 }
 /*------------> Transparencia de las URL y Boton <-----------*/
 p a:hover {
