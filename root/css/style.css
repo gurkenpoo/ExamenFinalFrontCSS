@@ -1,3 +1,5 @@
+/*------------> Globales <-----------*/
+
 body {
   background-color: #ffffff;
   margin: 0px;
@@ -5,6 +7,10 @@ body {
   font-family: "Be Vietnam Pro";
   font-size: 16px;
 }
+.flex {
+display: flex;
+}
+
 /*------------> Navegacion <-----------*/
 .menuNavegacion {
   display: flex;
@@ -153,6 +159,7 @@ p a {
 .cardMonth p {
   color: #b9b9c1;
   font-size: 16px;
+  line-height: 175%;git
 }
 .cardMonth img {
   margin-top: -35px;
