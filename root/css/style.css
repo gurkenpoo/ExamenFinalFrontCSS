@@ -1,5 +1,5 @@
 body {
-  background-origin: #fafafa;
+  background-color: #ffffff;
   margin: 0px;
   padding: 0px;
   font-family: "Be Vietnam Pro";
@@ -7,16 +7,15 @@ body {
 /*------------> Navegacion <-----------*/
 .menuNavegacion {
   display: flex;
-  justify-content: space-around;
-  padding: 80px 40px 40px 40px;
+  justify-content: space-evenly;
+  padding: 80px 0px 40px 0px;
 }
 /*------------> URL despues del logo <-----------*/
 .navegacionTop {
   display: flex;
-  margin-right: 50px;
   color: #242e52;
   font-size: 13px;
-  font-weight: 500px;
+  font-weight: 500;
 }
 
 p a {
@@ -34,7 +33,7 @@ p a {
   height: 44px;
   border: none;
   font-size: 13px;
-  font-weight: 500px;
+  font-weight: 500;
   box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
   border-radius: 50px;
 }
@@ -46,12 +45,11 @@ p a {
 .primeraSeccion {
   display: flex;
   padding-top: 100px;
-  padding-left: 180px;
-  padding-right: 170px;
+  justify-content: center;
 }
 .tituloPortada {
   text-align: right;
-  padding-left: 50px;
+  width: 450px;
 }
 .tituloPortada h1 {
   font-size: 50px;
@@ -68,9 +66,9 @@ p a {
 .segundaSeccion {
   display: flex;
   background-color: #8b48bf;
-  width: 100%;
+  justify-content: center;
   color: #ffffff;
-  padding: 40px 220px 80px 220px;
+  padding: 40px 0px 80px 0px ;
   height: 60px;
 }
 .segundaSeccion h2 {
@@ -90,10 +88,10 @@ p a {
 .cardContainer {
   display: flex;
   flex-wrap: wrap;
-  width: 1440x;
+  width: 100%;
   height: 430px;
   padding-top: 40px;
-  background-color: #fafafa;
+  background-color: #FAFAFA;
   justify-content: center;
 }
 .card {
@@ -185,7 +183,7 @@ p a {
 }
 /*------------> Estilo Footer <-----------*/
 .footerNav {
-  height: 247px;
+  height: 100%;
   width: 100%;
   background-color: #1e1e26;
 }
@@ -195,12 +193,13 @@ p a {
   flex-wrap: wrap;
   height: 247px;
   justify-content: space-evenly;
-  padding: 0px 40px;
+  align-content: center;
 }
 .logos {
   display: flex;
   flex-wrap: wrap;
-  width: 180px;
+  width: 20%;
+  padding-right: 40px;
 }
 .logos .logoFooter {
   width: 120px;
@@ -214,18 +213,34 @@ p a {
   height: 20px;
   margin: 6.5px;
 }
-.navFooter01 {
+.navFooter00 {
+  width: 25%;
   display: flex;
-  flex-wrap: wrap;
-  width: 100px;
-  color: white;
-  align-content: space-evenly;
-  height: 150px;
-  font-size: 16px;
+  justify-content: space-between;
+}
+.navFooter01 {
+  list-style: none;
+  line-height: 200%;
+  margin: 0;
+  padding: 0;
 }
 .navFooter01 a {
   color: white;
   text-decoration: none;
+}
+.formFooter {
+  width: 25%;
+  display: flex;
+justify-content: space-around;
+}
+#suscribe {
+  width: 200px;
+  height: 40px;
+  border-radius: 50px;
+}
+.formFooter .boton {
+  width: 60px;
+  height: 40px;
 }
 .copyRight {
   text-align: right;
