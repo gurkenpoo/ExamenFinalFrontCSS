@@ -280,6 +280,7 @@ p a:hover {
 /*------------> Media queries <-----------*/
 
 @media screen and (max-width: 480px) {
+  /*------------> header style mobile<-----------*/
   .menuNavegacion {
     justify-content: space-around;
     align-items: center;
@@ -291,10 +292,12 @@ p a:hover {
   .menuNavegacion .displayNone.burguer {
     display: inline;
   }
+  /*------------> primera seccion style mobile<-----------*/
   .primeraSeccion {
     flex-direction: column;
     margin-top: 20px;
   }
+  /*------------> Main style mobile <-----------*/
   .segundaSeccion.flex {
     background-color: #3cddf3;
     flex-direction: column;
@@ -347,7 +350,8 @@ p a:hover {
     align-items: center;
     flex-direction: column;
   }
-  .footerContainer.flex.flex {
+   /*------------> footer mobile <-----------*/
+  .footerContainer.flex {
     flex-direction: column;
     height: 450px;
     padding-top: 50px;
