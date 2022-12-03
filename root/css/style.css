@@ -37,11 +37,8 @@ p a {
 
 /*------------> Propiedades Boton Generico <----------- */
 .boton {
-  background-color: rgb(
-    139,
-    72,
-    191
-    ); /*------------>Cambio a RGB para poder ver la transparencia luego en HOVER <-----------*/
+  /*------------>Cambio a RGB para poder ver la transparencia luego en HOVER <-----------*/
+    background-color: rgb(139, 72, 191); 
     width: 134px;
     height: 44px;
     border: none;
@@ -50,7 +47,7 @@ p a {
     box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
     border-radius: 50px;
   }
-  .boton a {
+  a .boton {
     color: white;
     text-decoration: none;
   }
@@ -60,13 +57,13 @@ p a {
     justify-content: center;
 }
 .tituloPortada {
-  text-align: right;
-  width: 450px;
+    text-align: right;
+    width: 450px;
 }
 .tituloPortada h1 {
-  font-size: 50px;
-  font-weight: 700;
-  color: #232c50;
+    font-size: 50px;
+    font-weight: 700;
+     color: #232c50;
 }
 /*------------> Contenido Principal <-----------*/
 
@@ -98,7 +95,6 @@ p a {
 /*------------> Estilo de las Cards <-----------*/
 .cardContainer.flex {
   flex-wrap: wrap;
-  width: 100%;
   height: 430px;
   padding-top: 40px;
   background-color: #fafafa;
@@ -120,10 +116,8 @@ p a {
   color: #ffffff;
   font-weight: bold;
 }
-.tituloCard {
-  font-weight: bold;
-}
 .tituloCard span {
+  font-weight: bold;
   margin-left: 23px;
 }
 .descripcionCard {
@@ -183,10 +177,10 @@ p a {
 }
 .goforIt .boton {
   background-color: #ffffff;
+  color: #8b48bf;
 }
 .goforIt .boton a {
   text-decoration: none;
-  color: #8b48bf;
 }
 /*------------> Estilo Footer <-----------*/
 .footerNav.flex {
@@ -272,7 +266,7 @@ p a:hover {
   background-color: rgba(139, 72, 191, 0.7);
   cursor: pointer;
 }
-.goforIt .boton a:hover {
+.goforIt .boton.best:hover {
   text-decoration: none;
   color: #ffffff;
   cursor: pointer;
