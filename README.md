@@ -16,3 +16,4 @@ Sus usuarios deberían poder:
   -Pseudoelementos y Pseudoclases
   -(opcional) ---> Pequeñas animaciones
 
+### Para pantallas de 1440px y 480px 
