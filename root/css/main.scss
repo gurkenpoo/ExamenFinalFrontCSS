@@ -1,0 +1,166 @@
+
+/*------------> Globales <-----------*/
+
+body {
+    background-color: #ffffff;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-size: 16px;
+  }
+.flex {
+    display: flex;
+  }
+
+  /*------------> Navegacion <-----------*/
+.menuNavegacion.flex {
+    justify-content: space-evenly;
+    padding: 80px 0px 40px 0px;
+  }
+.burguer {
+    width: 50px;
+    height: 50px;
+  }
+ /*------------> URL despues del logo <-----------*/
+.navegacionTop.flex {
+    color: #242e52;
+    font-size: 13px;
+    font-weight: 500;
+    list-style: none;
+    width: 30%;
+    justify-content: space-around;
+  }
+
+p {
+    a {
+        margin-right: 30px;
+    }
+}
+/*------------> Propiedades Boton Generico <----------- */
+.boton {
+    background-color: rgb(139, 72, 191); 
+    width: 134px;
+    height: 44px;
+    border: none;
+    font-size: 13px;
+    font-weight: 500;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+}
+a{ 
+    .boton {
+    color: white;
+    text-decoration: none;
+  }
+}
+  /*------------> Primera seccion = Imagen principal + H1 <-----------*/
+
+.primeraSeccion.flex {
+    padding-top: 100px;
+    justify-content: center;
+}
+.tituloPortada {
+    text-align: right;
+    width: 450px;
+    h1 {
+        font-size: 50px;
+        font-weight: 700;
+         color: #232c50;
+    }
+}
+/*------------> Contenido Principal <-----------*/
+.principal {
+    margin-top: 100px;
+  }
+/*------------> Segunda Seccion = H2 + P <-----------*/
+
+.segundaSeccion.flex {
+    background-color: #8b48bf;
+    justify-content: center;
+    color: #ffffff;
+    padding: 40px 0px 80px 0px;
+    height: 60px;
+  }
+.segundaSeccion { 
+    h2 {
+    font-size: 36px;
+    font-weight: 700;
+    width: 540px;
+    margin: 10px 0px;
+  }
+    p {
+    font-size: 16px;
+    font-weight: 500;
+    width: 480px;
+    margin: 10px 0px;
+  }
+}
+/*------------> Estilo de las Cards <-----------*/
+
+.cardContainer.flex {
+    flex-wrap: wrap;
+    height: 430px;
+    padding-top: 40px;
+    background-color: #fafafa;
+    justify-content: center;
+}
+  .card.flex {
+    width: 550px;
+    height: 160px;
+    flex-wrap: wrap;
+    margin: 20px 20px 20px 40px;
+}
+  .boton2 {
+    background-color: rgb(139, 72, 191);
+    width: 69px;
+    height: 43px;
+    border: none;
+    font-size: 16px;
+    border-radius: 50px;
+    color: #ffffff;
+    font-weight: bold;
+}
+.tituloCard {
+    span {
+    font-weight: bold;
+    margin-left: 23px;
+  }
+}
+.descripcionCard {
+    width: 440px;
+    height: 105px;
+    color: #b3b2b7;
+    margin-left: 95px;
+  }
+
+/*------------> Seccion Best Of The Month <-----------*/
+
+.bestMonth {
+    h1 {
+    font-size: 39px;
+    text-align: center;
+    color: #242e53;
+    padding-top: 60px;
+  }
+}
+.containerMonth.flex {
+  padding-top: 70px;
+  justify-content: center;
+}
+.cardMonth {
+    width: 426px;
+    height: 220px;
+    background-color: #fafafa;
+    text-align: center;
+    font-size: 16px;
+    h2 {
+        color:#3f4868;
+        }
+    p {
+        color:#b9b9c1;
+        line-height: 175%;
+    }
+    img {
+        margin-top: -35px;
+    }
+  }
