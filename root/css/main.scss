@@ -164,3 +164,72 @@ a{
         margin-top: -35px;
     }
   }
+.More {
+  text-align: center;
+  margin: 45px 0 180px 0;
+}
+/*------------> apartado/seccion <-----------*/
+.goforIt {
+  height: 224px;
+  background-color: #8b48bf;
+  h1 {
+    font-size: 40px;
+    color: #ffffff;
+    width: 500px;
+  }
+  .boton {
+    background-color: #ffffff;
+    color: #8b48bf;
+    a {
+      text-decoration: none;
+    }
+  }
+}
+/*------------> Estilo Footer <-----------*/
+.footerNav.flex {
+  height: 100%;
+  width: 100%;
+  background-color: #1e1e26;
+  justify-content: center;
+}
+.footerContainer.flex {
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  height: 247px;
+  justify-content: space-between;
+  align-content: center;
+}
+.logos.flex {
+  flex-wrap: wrap;
+  width: 20%;
+  order: 3;
+}
+.logos {
+  .logosFooter{
+    width: 120px;
+    height: 25px;
+  }
+}
+.logoContainer {
+  justify-content: center;
+  img {
+    width: 20px;
+    height: 20px;
+    margin: 8px 10px;
+  }
+}
+.navFooter00.flex {
+  width: 25%;
+  justify-content: space-between;
+  order: 2;
+}
+.navFooter01 {
+  list-style: none;
+  line-height: 200%;
+  margin: 0;
+  padding: 0;
+  a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+}
